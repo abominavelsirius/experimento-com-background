@@ -1,0 +1,21 @@
+* {
+    background: black;
+}
+
+
+main {
+    height: 200px;
+    width: 450px;
+}
+
+main {
+    animation-name: video;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes video {
+    0% {background: url(./a.gif)}
+    50% {background: url(./b.gif)}
+    100% {background: url(./c.gif)}
+}
